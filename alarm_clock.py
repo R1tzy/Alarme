@@ -37,13 +37,11 @@ def main():
         minuto_atual = agora.strftime("%M")
         segundo_atual = agora.strftime("%S")
         
-        if alarme_hora == hora_atual:
-            if alarme_min == minuto_atual:
-                if alarme_seg == segundo_atual:
-                    print("HORA DE ACORDAR VAGABUNDO!!!!!!")
-                    for i in range(2):
-                        time.sleep(0.3)
-                        ps("song_alarm/basic_bell.mp3")
-                    break
+        if alarme_hora == hora_atual and alarme_min == minuto_atual and alarme_seg == segundo_atual:
+            print("HORA DE ACORDAR!!!!!!")
+            for i in range(2):
+                time.sleep(0.3)
+                ps("song_alarm/basic_bell.mp3")
+            break
                 
 main()

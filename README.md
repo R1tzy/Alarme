@@ -7,6 +7,6 @@
 1. Execute o arquvio e teste
 
 ### Observação
-1. Installe a depência playsound 1.2.2 usando o comando pip install playsound==1.2.2
+1. Instale a depência playsound 1.2.2 usando o comando pip install playsound==1.2.2
 1. O programa usa como valor o horário do seu dispositivo, então para testar coloque uma valor próximo ao horário atual
 
